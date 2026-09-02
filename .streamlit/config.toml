@@ -1,11 +1,14 @@
 [server]
 enableStaticServing = false
+enableCORS = false
+enableXsrfProtection = true
 
 [browser]
 gatherUsageStats = false
+serverAddress = "localhost"
 
 [client]
-toolbarMode = "minimal"
+toolbarMode = "viewer"
 showErrorDetails = false
 showSidebarNavigation = false
 
